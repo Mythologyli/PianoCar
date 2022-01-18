@@ -102,8 +102,8 @@ void Move::Wheel(uint8_t wheel, uint8_t rotation, float speed_rate)
 //前进
 void Move::Forward(float speed_rate)
 {
-    Wheel(LEFT_A_WHEEL, FORWARD_ROTATION, speed_rate);
-    Wheel(LEFT_B_WHEEL, FORWARD_ROTATION, speed_rate);
+    Wheel(LEFT_A_WHEEL, FORWARD_ROTATION, speed_rate * 0.90);
+    Wheel(LEFT_B_WHEEL, FORWARD_ROTATION, speed_rate * 0.90);
     Wheel(RIGHT_A_WHEEL, FORWARD_ROTATION, speed_rate);
     Wheel(RIGHT_B_WHEEL, FORWARD_ROTATION, speed_rate);
 
@@ -115,8 +115,8 @@ void Move::Forward(float speed_rate)
 //后退
 void Move::Backward(float speed_rate)
 {
-    Wheel(LEFT_A_WHEEL, BACKWARD_ROTATION, speed_rate);
-    Wheel(LEFT_B_WHEEL, BACKWARD_ROTATION, speed_rate);
+    Wheel(LEFT_A_WHEEL, BACKWARD_ROTATION, speed_rate * 0.90);
+    Wheel(LEFT_B_WHEEL, BACKWARD_ROTATION, speed_rate * 0.90);
     Wheel(RIGHT_A_WHEEL, BACKWARD_ROTATION, speed_rate);
     Wheel(RIGHT_B_WHEEL, BACKWARD_ROTATION, speed_rate);
 

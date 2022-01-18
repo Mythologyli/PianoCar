@@ -11,7 +11,7 @@
 #define SERVO_BAUD_RATE 9600
 
 //动作组
-#define ACTION_RESET_NUM 99
+#define ACTION_RESET_NUM 100
 
 //默认动作组速度
 #define SERVO_NORMAL_SPEED 1.0
